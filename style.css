@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-weight: normal;
 }
 body{
     background: hsl(148, 38%, 91%);
@@ -11,4 +12,17 @@ main{
     color: white;
    align-self: center;
     color: black;
+}
+p{
+    color:  hsl(0, 66%, 54%);
+    
+}
+input{
+    display: block;
+}
+div input{
+    display: inline;
+}
+.name{
+display: inline-flex;
 }
