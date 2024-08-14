@@ -9,20 +9,98 @@ body{
     
 }
 main{
-    color: white;
+    width: min-content ;
+    background: white;
    align-self: center;
     color: black;
+    margin:4rem auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+h2{
+    margin: 10px 5px;
 }
 p{
     color:  hsl(0, 66%, 54%);
-    
+    margin-top: 5px;
+    display: none;
 }
 input{
     display: block;
 }
+input[type= "email"]{
+    padding: 0.5rem 7.6rem;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 15%, 59%);
+}
+.form input{
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid hsl(186, 15%, 59%);
+}
 div input{
     display: inline;
 }
-.name{
-display: inline-flex;
+.form{
+display: flex;
+margin-bottom: 10px;
 }
+.first{
+    padding-right: 3rem;
+}
+label{
+display: inline-block;
+margin: 5px;
+}
+h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.type{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.message{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.message2{
+    background: hsl(148, 38%, 91%);
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    display: none;
+}
+.message2 h4{
+ font-weight: bold;
+ display: inline;
+
+}
+.message2 img{
+    background-color: gray;
+   width: 1rem;
+}
+.checkbox{
+    display: inline;
+    border: 1px solid hsl(186, 15%, 59%);
+    margin-right: 7px;
+    padding: 0.5rem 2.5rem;
+    border-radius: 5px;
+}
+
+textarea{
+    border: 1px solid hsl(186, 15%, 59%);
+}
+input[type="radio"]{
+    margin-top: 20px;
+}
+button{
+    color: white;
+    background: hsl(169, 82%, 27%);
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 12rem;
+    margin-top: 15px;
+}
+
+

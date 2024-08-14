@@ -17,42 +17,52 @@
   <h2>Contact Us</h2> 
 
   <form >
- <div class="name">
-  <label>First Name</label> 
-  <input type="text" >
-  <p>This field is required</p>
+    <div class="form">
+      <div class="first">
+        <label>First Name</label> <br>
+        <input type="text" >
+        <p>This field is required</p>
+       </div>
+        
+        
+        <div class="name">
+         <label>Last Name</label> <br>
+         <input type="text"  >
+         <p>This field is required</p>
+       </div>
+
+    </div>
  
-   <label>Last Name</label> 
-   <input type="text"  >
-   <p>This field is required</p>
- </div>
    
     <label>Email Address</label> 
     <input type="email">
     <p>Please enter a valid email address</p>
   
     <div>
-      <h4>Query Type</h4>
-      <input type="checkbox" name="" id="">General Enquiry
-      <input type="checkbox" name="" id="">Support Request
-      <p>Please select a query type</p>
-    
-    
+      <h4 class="type">Query Type</h4>
+      <div class="checkbox">
+        <input type="checkbox" >General Enquiry
+      </div>
+        <div class="checkbox">
+        <input type="checkbox" >Support Request
+        <p>Please select a query type</p>
+      </div>
+      
    <div class="message">Message</div>
-     <textarea name="" id=""></textarea> 
+     <textarea rows="5" cols="55"></textarea> 
       
     <br>
      <input type="radio" name="" id=""> I consent to being contacted by the team 
      <p>To submit this form, please consent to being contacted</p> 
-    
-      <input type="button" placeholder="Submit">
+    <br>
+      <button>Submit</button>
     </div>
     
   
     <div class="message2">
-     <img src="assets/images/icon-success-check.svg" alt="">
-    <b>Message Sent!</b>
-     <br>
+     <img src="assets/images/icon-success-check.svg" alt="checkbox">
+    <h4>Message Sent!</h4>
+    <br>
      Thanks for completing the form. We'll be in touch soon!
     </div>
     
