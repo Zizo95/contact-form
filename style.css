@@ -65,11 +65,15 @@ h4{
     margin-bottom: 10px;
 }
 .message2{
-    background: hsl(148, 38%, 91%);
+    background: hsl(187, 24%, 22%);
+    color: white;
     padding: 10px;
     border-radius: 5px;
     width: fit-content;
-    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: 20px;
+    
 }
 .message2 h4{
  font-weight: bold;
