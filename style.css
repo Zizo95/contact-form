@@ -23,7 +23,7 @@ h2{
 p{
     color:  hsl(0, 66%, 54%);
     margin-top: 5px;
-    display: none;
+   display: none;
 }
 input{
     display: block;
