@@ -11,7 +11,7 @@ body{
 main{
     width: min-content ;
     background: white;
-   align-self: center;
+  
     color: black;
     margin:4rem auto;
     padding: 20px;
